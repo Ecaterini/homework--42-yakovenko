@@ -1,16 +1,33 @@
-# React + Vite
+# 📌 Розробка з використанням хука useEffect і Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Невеликий React-проєкт, створений за допомогою Vite, який демонструє роботу з HTTP-запитами та відображенням отриманих даних.
+У застосунку реалізовано завантаження списку користувачів через Axios з публічного API.
 
-Currently, two official plugins are available:
+## 📖 Опис проєкту
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проєкт демонструє:
 
-## React Compiler
+використання хуку useEffect для отримання даних при завантаженні сторінки
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+роботу з бібліотекою Axios
 
-## Expanding the ESLint configuration
+обробку станів: loading, error, data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+рендер списку користувачів у компоненті React
+
+Це базовий приклад асинхронного отримання даних у React.
+
+## 🛠️ Інструкція зі встановлення та запуску
+
+1️⃣ Клонувати репозиторій
+git clone https://github.com/Ecaterini/homework--42-yakovenko.git
+2️⃣ Перейти в папку проєкту
+cd homework--42-yakovenko/my-react-app
+3️⃣ Встановити залежності
+npm install
+4️⃣ Запустити локальний сервер
+npm run dev
+
+## 🚀 Демо-версія
+
+- (https://homework-42-yakovenko-ir2g.vercel.app/)
